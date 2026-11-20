@@ -1,0 +1,1 @@
+'use client';import {useRouter} from 'next/navigation';export default function Cancel(){const r=useRouter();return <main className="container page-head"><h1>Payment cancelled</h1><p className="muted">No payment was taken. You can try again from your bookings.</p><button className="btn btn-primary" onClick={()=>r.push('/dashboard/customer/bookings')}>Try again</button></main>}
