@@ -1,0 +1,7 @@
+import Link from 'next/link';
+export default function NotFound()
+{return <main className="container page-head"><div style={{fontSize:70}}>🧰</div>
+<h1>404 — Page not found</h1>
+<p className="muted">Looks like this repair route needs a little fixing.</p>
+<Link className="btn btn-primary" href="/">Back to Home</Link>
+</main>}
